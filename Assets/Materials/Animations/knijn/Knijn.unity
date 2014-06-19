@@ -1,0 +1,712 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+  m_NavMesh: {fileID: 0}
+--- !u!1 &2524237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2524238}
+  m_Layer: 0
+  m_Name: Knijn_voorpoot_achter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2524238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 2524237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.708056927, y: .320730925, z: -.00676222658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 856246713}
+  m_Father: {fileID: 834816209}
+--- !u!1 &22209334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 22209335}
+  m_Layer: 0
+  m_Name: Knijn_hoofd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22209335
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 22209334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.891016841, y: .809045553, z: -.00676222658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1147986259}
+  m_Father: {fileID: 834816209}
+--- !u!1 &70876540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 70876541}
+  m_Layer: 0
+  m_Name: Knijn_achterpoot_voor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &70876541
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 70876540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0499243438, y: .328019142, z: -.00676222658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1994624644}
+  m_Father: {fileID: 834816209}
+--- !u!1 &257013189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 257013190}
+  m_Layer: 0
+  m_Name: Knijn_achterpoot_achter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &257013190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 257013189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0353477895, y: .328019142, z: -.00676222658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1021392362}
+  m_Father: {fileID: 834816209}
+--- !u!1 &530854206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 530854207}
+  m_Layer: 0
+  m_Name: Knijn_voorpoot_voor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &530854207
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 530854206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.657039046, y: .328019142, z: -.00676222658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1112762623}
+  m_Father: {fileID: 834816209}
+--- !u!1 &834816208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 834816209}
+  - 95: {fileID: 834816210}
+  m_Layer: 0
+  m_Name: Knijn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &834816209
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 834816208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .248895198, y: -.131235614, z: .00676222658}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22209335}
+  - {fileID: 2112481927}
+  - {fileID: 2524238}
+  - {fileID: 530854207}
+  - {fileID: 257013190}
+  - {fileID: 70876541}
+  m_Father: {fileID: 0}
+--- !u!95 &834816210
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 834816208}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f379e8aba0eb28f4598de2bafd399914, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
+--- !u!1 &856246712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 856246713}
+  - 212: {fileID: 856246714}
+  m_Layer: 0
+  m_Name: Knijn-03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &856246713
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 856246712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2524238}
+--- !u!212 &856246714
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 856246712}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: 8486727f4694436469e8f51147c20e8b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1021392361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1021392362}
+  - 212: {fileID: 1021392363}
+  m_Layer: 0
+  m_Name: Knijn-06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1021392362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1021392361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 257013190}
+--- !u!212 &1021392363
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200002, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1021392361}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: 5db9f5f82fa12f94d9df8b1d6adcca35, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1112762622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1112762623}
+  - 212: {fileID: 1112762624}
+  m_Layer: 0
+  m_Name: Knijn-04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112762623
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1112762622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 530854207}
+--- !u!212 &1112762624
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200004, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1112762622}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: 6a2aa804a10b56b47bba8f9c999d41d4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1147986258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1147986259}
+  - 212: {fileID: 1147986260}
+  m_Layer: 0
+  m_Name: Knijn-01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1147986259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1147986258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22209335}
+--- !u!212 &1147986260
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200006, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1147986258}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: f94c36def430ed945b46b4cc215363a4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1387389793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1387389798}
+  - 20: {fileID: 1387389797}
+  - 92: {fileID: 1387389796}
+  - 124: {fileID: 1387389795}
+  - 81: {fileID: 1387389794}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1387389794
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387389793}
+  m_Enabled: 1
+--- !u!124 &1387389795
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387389793}
+  m_Enabled: 1
+--- !u!92 &1387389796
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387389793}
+  m_Enabled: 1
+--- !u!20 &1387389797
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387389793}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+  m_OcclusionCulling: 1
+--- !u!4 &1387389798
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387389793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &1444684640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1444684641}
+  - 212: {fileID: 1444684642}
+  m_Layer: 0
+  m_Name: Knijn-02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1444684641
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1444684640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2112481927}
+--- !u!212 &1444684642
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200008, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1444684640}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: e65e244d834d1cb48882f96b2c5604d1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1462947074
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .248895198
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.131235614
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .00676222658
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_RootGameObject: {fileID: 834816208}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1994624643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1994624644}
+  - 212: {fileID: 1994624645}
+  m_Layer: 0
+  m_Name: Knijn-05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1994624644
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1994624643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 70876541}
+--- !u!212 &1994624645
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200010, guid: 00c2b9c673badf6458b17c06cc8a695c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 1994624643}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: b929636c65b94e84eab8e3533c8640d4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2112481926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2112481927}
+  m_Layer: 0
+  m_Name: Knijn_lichaam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2112481927
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 00c2b9c673badf6458b17c06cc8a695c, type: 2}
+  m_PrefabInternal: {fileID: 1462947074}
+  m_GameObject: {fileID: 2112481926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.139570981, y: .575820923, z: -.00676222658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1444684641}
+  m_Father: {fileID: 834816209}

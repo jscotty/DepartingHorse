@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{3D83BBCF-C9B0-CCEB-DE5F-8D3D7F76EBA2}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Materials\PickupSpawn.cs" />
+     <Compile Include="Assets\Scripts\DataClass.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\Background\ParalaxBackground.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\Background\ParalaxController.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\Background\ParallaxFront.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\Movement.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\MovementAnimal.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\MovementRock.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\PlayerGUI.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\Respawn.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Controllers\movementPickups.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\Animal\AnimalScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\Animal\SpawnAnimal.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\ObjectScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\ObstakelScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\PickUp\FlyingPickUp.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\PickUp\PickUp.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\Platform\Respawn.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\Platform\SpawnPlatform.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Obstacles\SpawnFlyPickup.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\Shops\Shop.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Text\MeterText.cs" />
+     <Compile Include="Assets\Scripts\Text\ScoreText.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
